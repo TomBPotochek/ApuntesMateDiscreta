@@ -1,8 +1,9 @@
+
 $$
 (B,+,*,',0,1)
 $$
 $$
-(D_{30},\text{mcm},\text{mcd},',1,30) = (D_{30},+,*,',0,1)
+(D_{30},\text{mcm},\text{mcd},\bar{\ },1,30) = (D_{30},+,*,\bar{\ },0,1)
 $$
 donde tenemos que $D_{30}$ son los divisores de $30$
 
@@ -25,16 +26,16 @@ entonces el $\text{mcd}(36,24) = 2^{2}\cdot 3^{1}\cdot 5^{0}\dots = 12$
 ### es complementada?
 Ejemplo
 $$
-\text{mcm}(2,2') = 30
+\text{mcm}(2,\bar{2}) = 30
 $$
 $$
-\text{mcd}(2,2')=1
+\text{mcd}(2,\bar{2})=1
 $$
 buscamos que:
 $$
 \forall x \in D_{30}: \begin{array} \\
-x\cdot x'=e_{+} \\
-x+x'=e_{\cdot }
+x\cdot \bar{x}=e_{+} \\
+x+\bar{x}=e_{\cdot }
 \end{array}
 $$
 $$\begin{array} \\
@@ -56,7 +57,7 @@ $$
 $$
 la solución es entonces $a=0, b=1, c=1 \implies 2^{0}3^{1}5^{1}=15$
 
-En general, si la sextupla tiene estructura de algebra de bool, los complementos se pueden calcular como $x' = \frac{\text{max\_elem}}{x}$. El elemento maximo se correspondera con el 1 y el elemento minimo se correspondera con el 0.
+En general, si la sextupla tiene estructura de algebra de bool, los complementos se pueden calcular como $\bar{x} = \frac{\text{max\_elem}}{x}$. El elemento maximo se corresponderá con el 1 y el elemento minimo se correspondera con el 0.
 
 ## cuando hay estructura de algebra de bool?
 si los factores primos del numero aparecen todos sin repetir, entonces habra algebra de bool. La sextupla va a tener que se cumplen los axiomas y que cada elemento tiene complemento unico.

@@ -1,4 +1,4 @@
-> Determinar el complemento de cada uno y el 0 y 1 de B para que sea un algebra de Boole
+> Determinar el complemento de cada uno y el 0 y 1 de $B$ para que sea un algebra de Boole
 
 Tomamos $\alpha = 0_B$ y $\omega = 1_B$
 
@@ -13,7 +13,7 @@ a \cdot f = \alpha \\
 \dots
 \end{array}
 $$
-entonces definimos un isomorfismo (cualquiera, mientras sea isomorfismo) ej: $f(a) = 2, f(b) = 7,$ etc. Entonces sabemos que $\bar{b} = f(\overline{ f(b)})^{-1} = f(\bar{7})^{-1} = f(\frac{42}{7})^{-1}$ y asi.
+entonces definimos un isomorfismo $\text{f}$ (cualquiera, mientras sea isomorfismo) ej: $\text{f}(a) = 2, \text{f}(b) = 7,$ etc. Entonces sabemos que $\bar{b} = \text{f}(\ \overline{ \text{f}(b)}\ )^{-1} = \text{f}(\bar{7})^{-1} = \text{f}(\frac{42}{7})^{-1}$ y asi.
 
 
 ## subalgebras

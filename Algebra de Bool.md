@@ -2,7 +2,7 @@
 $$
 \text{dado } (B,+,\cdot \ ,', 0,1)
 $$
-el resto de las propiedades esta en el ejercicio 28 ![[Notas guía 1#^td14lx4k08]]
+se deben cumplir (ejercicio 28): ![[Notas guía 1#^td14lx4k08]]
 
 # Identidades
 
@@ -82,8 +82,8 @@ $$
 $$
 
 
-# Fun facts:
-Para cada algebra de Boole, se puede asociar una Relacion de orden.  
+> [!NOTE]
+> Para cada algebra de Boole, se puede asociar una Relacion de orden.  
 
 # Partes de un algebra de Boole
 $P_{A}$ es el conjunto de todos los subconjuntos de A. "Partes de A"
@@ -94,20 +94,22 @@ además, $(P_{A}, \cup, \cap, \bar{\ }, \varnothing, A)$ forma un álgebra de Bo
 ![[Algebra de Bool 2023-09-17 23.53.31.excalidraw]]
 
 # atomos
-un elemento $a$ de un algebra de Boole es un átomo si:  
+un elemento $a$ de un algebra de Boole es un átomo si[^1]:  
 $$
 \begin{array} \\
 a \neq 0  \\
 (x \cdot a = x \implies x = a) \ \vee (x = 0)
 \end{array}
 $$
-
-
+[^1]: a esta definicion le falta algo. No se qué esta diciendo.
 
 # subalgebras de Boole
 $H$ es un subalgebra de $B$ si $H \subset B$ y $H$ es álgebra de Boole. 
 
 
+# [[Isomorfismos de algebra de Boole]]
+
+----------
 # ejercicios tipo
 [[ejercicio 31]]: algebras de divisores de un numero, atomos, etc.
 
