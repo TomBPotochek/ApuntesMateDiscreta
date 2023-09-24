@@ -1,0 +1,30 @@
+{
+  "mobilePullAction": "editor:save-file",
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:undo",
+    "editor:redo",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-on-current",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:insert-embed",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:toggle-keyboard",
+    "editor:configure-toolbar"
+  ],
+  "autoPairMarkdown": true,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false
+}
