@@ -1,5 +1,6 @@
 # b
 Probar $\forall n \in \mathbb{N} \equiv n \geq 1$ la expresión:
+Usamos el [[Inducción#Principio de induccion matematica|principio de induccion]]
 $$
 \sum_{k=1}^{k=n} k^{2} = \frac{1}{6}n(n+1)(2n+1)
 $$
@@ -15,10 +16,10 @@ asumiendo que vale para $n$,
 $$
 \sum_{k=1}^{n+1}
 $$
-hacerlo
+%% TODO: falta terminarlo %%
 
 # ñ
-Probar $\forall n \geq 1$
+Probar $\forall n \geq 1$ 
 $$
 (1+\alpha)^{n} \geq (1 +n \alpha), \alpha \geq -1
 $$
@@ -37,11 +38,10 @@ Asumiendo $(1+\alpha)^{n}\geq(1+n\alpha)$
 Si $n := n+1$
 $$
 \begin{align}
-(1+\alpha)^{n+1} &\geq (1+(n+1)\alpha)  \\
-(1+\alpha)^{n+1}&= (1+\alpha)^{n}(1+\alpha) &\geq (1+n\alpha)(1+\alpha) \\
-&\geq (1+\alpha+n\alpha +n\alpha^{2}) \\
-&\geq (1+(1+n)\alpha+(n\alpha^{2})) \\
-&\geq (1+(n+1)\alpha)
+(1+\alpha)^{n+1} &\stackrel{\mathclap{\tiny\mbox{?}}}{\geq}  (1+(n+1)\alpha)  \\
+(1+\alpha)^{n+1} = (1+\alpha)^{n}(1+\alpha) &\geq (1+n\alpha)(1+\alpha) = (1+(n+1)\alpha)\\
+(1+\alpha)^{n}\cancel{ (1+\alpha)  }&\geq (1+n\alpha)\cancel{ (1+\alpha) }  & {\tiny\text{: } \alpha>-1\implies 1+\alpha>0 \implies \mbox{ desigualdad se mantiene }} \\
+(1+\alpha)^{n} &\geq (1+n\alpha)  &  {\tiny \mbox{: por hipostesis es verdad }}
 \end{align}
 $$
 
