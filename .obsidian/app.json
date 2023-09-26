@@ -26,5 +26,6 @@
   ],
   "autoPairMarkdown": true,
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "strictLineBreaks": true
 }

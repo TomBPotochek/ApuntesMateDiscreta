@@ -1,10 +1,16 @@
+Ver [relaciones en wikipedia](https://en.wikipedia.org/wiki/Relation_\(mathematics\))
+
+
 Cualquier subconjunto de un producto cartesiano es una relacion. Si no existe subconjunto, no hay relacion.
 $$
-\begin{array}
-\text{R}: A \to A  \\
+\begin{array} \\
+C_R \subset A \times B \\
+\text{R}: A \times B \to C_R \\
 A \times B = \{(a,b)/a\in A, b\in B\}
 \end{array}
 $$
+Se escribe $a\text{R}b$ para decir que existe una relación entre $a$ y $b$ (importa el orden).  
+
 cardinal de un conjunto es la cantidad de elementos en el conjunto.
 $$
 |A| = \mbox{cantidad de elementos de } A
@@ -14,9 +20,9 @@ $$
 $$
 
 > [!WARNING]
-> Las funciones son relaciones pero *no todas* las relaciones son funciones (las relaciones pueden tener multiples imágenes para un mismo elemento del dominio
+> Las funciones son relaciones pero *no todas* las relaciones son funciones (las relaciones pueden tener multiples imágenes para un mismo elemento del dominio)
 
-## Propiedades
+## Tipos de Relaciones
 ### Reflexiva
 $$
 \forall a \in A: a\text{R}a

@@ -30,19 +30,20 @@ stateDiagram
 
 	class q1 End
 ```
-
+son la misma automata.
 # Lenguaje
+Se define el *lenguaje* $L$ de una automata como *"todas las cadenas compuestas por elementos del alfabeto que son aceptadas por la autómata"*.
+$$
+\begin{align}
+&\Sigma = \{ a,b \} \\
+&\Sigma^{*} = \mbox{ todas las cadenas de } \Sigma \\
+&L = \{ x \in \Sigma^{*} : x\mbox{ es aceptada } \}
+\end{align}
+$$
 
-$$
-\Sigma = \{ a,b \}
-$$
-$$
-\Sigma^{*} = \mbox{ todas las cadenas de } \Sigma
-$$
+$\Sigma^{*}$ representa todas las posibles cadenas compuestas por $a,b$ de todas las longitudes, incluido el vacío: $\lambda$
 
-$\Sigma^{*}$ representa todas las posibles cadenas compuestas por $a,b$ de todas las longitudes, incluido el vacio $\lambda$
-
-## funcion de transicion generalizada
+## función de transición generalizada
 
 la función de transición generalizada
 $$
