@@ -20,10 +20,10 @@ Por lo tanto es verdadero para $n=1$
 Suponiendo que $S(k)$ es verdadero, demostramos que $S(k+1)$ es verdadero
 $$
 \begin{align}
-S(k) = \sum_{i=1}^{k} i &= \frac{k(k+1)}{2}  &  & \mbox{ : hipótesis } \\
+S(k) = \sum_{i=1}^{k} i &= \frac{k(k+1)}{2}  &  & \mbox{ : hipotesis } \\
 S(k+1) = \sum_{i=1}^{k+1} i &= k+1 + \sum_{i=1}^{k} i  &  & \mbox{: definicion sumatoria } \\
 &= k + 1 + \textcolor{green}{ \frac{k(k+1)}{2} }  &  & \mbox{ : por hipotesis }  \\
-= \frac{k+1}{2}(2+k) &= \frac{(k+1)(k+2)}{2} 
+= \frac{k+1}{2}(2+k) &= \frac{(k+1)(k+2)}{2}
 \end{align}
 $$
 

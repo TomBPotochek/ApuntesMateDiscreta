@@ -1,5 +1,4 @@
-Ver [relaciones en wikipedia](https://en.wikipedia.org/wiki/Relation_\(mathematics\))
-
+Ver [relaciones en wikipedia](https://en.wikipedia.org/wiki/Relation_(mathematics))
 
 Cualquier subconjunto de un producto cartesiano es una relacion. Si no existe subconjunto, no hay relacion.
 $$
@@ -9,9 +8,10 @@ C_R \subset A \times B \\
 A \times B = \{(a,b)/a\in A, b\in B\}
 \end{array}
 $$
-Se escribe $a\text{R}b$ para decir que existe una relación entre $a$ y $b$ (importa el orden).  
+Se escribe $a\text{R}b$ para decir que existe una relación entre $a$ y $b$ (importa el orden). Se podria decir que "$a$ esta relacionado con $b$" (pero no necesariamente 
+vale al revés).
 
-cardinal de un conjunto es la cantidad de elementos en el conjunto.
+Ell cardinal de un conjunto es la cantidad de elementos en el conjunto.
 $$
 |A| = \mbox{cantidad de elementos de } A
 $$
@@ -42,7 +42,7 @@ $$
 ## Representaciones
 Ej:
 $$
-\begin{array}
+\begin{array} \\
 A = \{1,2,3,4\}  \\
 \text{R} = \{(1,1),(2,2),(3,3),(4,4),(1,2),(2,1)\}
 \end{array}
@@ -87,7 +87,7 @@ si $(x \leq y, y \leq x) \implies (x \leq z)$ entonces la relacion es **transiti
 ## Clases de equivalencias
 La relacion debe ser RST. 
 
-* Clase del elemento "$a$" $= Cl(a) = [a] = \{ x \in \text{Conj } / x\text{R}a \}$
+* Clase del elemento "$a$" $= Cl(a) = [a] = \{ x \in \text{Conjunto } / x\text{R}a \}$
 * las clases nunca son vacias porque $a \subset [a]$
 * $[a] \cap [b] = \varnothing$ si **no** son elementos de la misma clase.
 * $[a] = [b]$ si son elementos de la misma clase.

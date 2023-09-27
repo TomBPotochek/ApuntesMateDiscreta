@@ -18,6 +18,33 @@ $$
 $$
 %% TODO: falta terminarlo %%
 
+# e
+probar
+$$
+P(n) = \sum_{i=0}^{n-1} a^{i}=\frac{a^{n}-1}{a-1}, a \neq 1
+$$
+
+## caso base
+probamos para $i = 0$
+$$
+\begin{align}
+P(1) = \sum_{k=0}^{0} a^{i} = a^{0} &= 1 \\
+\frac{a^{1}-1}{a-1} &= 1
+\end{align}
+$$
+
+## induccion
+asumiendo que vale $P(t) = \sum_{k=0}^{t-1} a^{k} = \frac{a^{k}-1}{a-1}$
+
+$$
+\begin{align}
+P(t+1) = \sum_{k=0}^{t} a^{k} &= \sum_{k=0}^{t-1} + a^{t}  \\
+= \frac{a^{t+1}-1}{a-1} + a^{t} &=  & \mbox{ : por hipotesis } \\
+= \frac{a^{t+1} -1 + a^{t+1}+ a^{t}}{a-1} &= \frac{a^{t}-1}{a-1}
+\end{align}
+$$
+
+
 # ñ
 Probar $\forall n \geq 1$ 
 $$
@@ -70,5 +97,40 @@ $$
 \begin{align}
 11^{n+1 +2} + 12^{2(n+1)+1} &= k\cdot 133 \\
 11^{n+1+2} + 12^{2n+1 +2} &= 11^{n+2}\cdot 11 + 12^{2n+1}\cdot 12^{2}
+\end{align}
+$$
+%% TODO: terminarlo %%
+
+
+# v
+probar $n! \geq 2^{n-1}$
+
+nota: en los casos de desiguladades, es probable que sea util 
+en algun momento acotar algun termino
+
+## caso base
+$$
+\begin{align}
+P(1) = 1! \geq 2^{1-1}
+\end{align}
+$$
+
+## induccion
+hipotesis
+$$
+P(k) = (k)! \geq 2^{k-1}
+$$
+
+$$
+P(k+1) = (k+1)! = (k+1)\cdot k!
+(k+1)\cdot k! \stackrel{\mathclap{\tiny\mbox{hip}}}{\geq} (k+1) 2^{k-1}
+$$
+como sabemos en esta situacion que $k>1$
+, tambien sabemos que $k+1>2$
+entonces:
+$$
+\begin{align}
+(k+1) 2^{k-1} > 2 2^{k-1} = 2^{k} \\
+(k+1)! \geq 2^{k}
 \end{align}
 $$
