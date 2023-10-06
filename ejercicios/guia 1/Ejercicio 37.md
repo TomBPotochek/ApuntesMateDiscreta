@@ -1,3 +1,4 @@
+ #ejercicio/completo 
 # consigna
 ![[Notas guía 1#^0zoswalt2cq]]
 

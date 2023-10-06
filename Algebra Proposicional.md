@@ -1,6 +1,6 @@
 Densidad $\delta(p)$ de una proposición $p$  es la cantidad de filas de la tabla de verdad donde la proposición es verdadera dividida el total de filas (de la tabla de verdad). Una especie de medida del tamaño del "conjunto de positivad" de la proposición.  
 
-Tambien aplican las [[Relaciones|relaciones]] entre conjuntos que forman un álgebra (en este caso proposicional).
+También aplican las [[Relaciones|relaciones]] entre conjuntos que forman un álgebra (en este caso proposicional).
 # Básico
 ## Propiedades
 
@@ -13,8 +13,8 @@ se puede escribir una funcion proposicional en su forma normal. Es una suma o pr
 
 ### Forma normal disyuntiva
 
-es la suma de minterminos. Un mintermino es un producto de todas las variables de la funcion.
-ej de funcion proposicional. 
+es la suma de minterminos. Un mintermino es un producto de todas las variables de la función.
+ej de función proposicional. 
 $$
 f(p,q,r) = p\bar{q}r + p\bar{r} + pq
 $$

@@ -23,11 +23,13 @@ se puede ver haciendo algunos ejemplos que la expresion pareceria ser $x_n=2^{n}
 vemos para $n=1$
 $$
 \begin{align}
-x=1 = 2^{1}x_0 = 2x_0
+&x_{1} = 2^{1}x_0 = 2x_0  \\
+&\implies x_{1} - 2x_{0} = 2x_{0}-2x_{0} = 0
 \end{align}
 $$
+Se cumple para $n=1$
 
-### induccion
+### inducción
 asumiendo que vale
 $$
 x_n = 2^{n}x_0
@@ -42,6 +44,7 @@ x_{n+1} = 2\cdot x_n &= \\
 $$
 ----------
 # recurrencias de segundo orden
+Son relaciones de recurrencia que dependen de 2 términos anteriores.
 dado
 $$
 x_{n+2} + x_{n+1} - 2x_n = 0
@@ -58,6 +61,7 @@ asumimos
 $$
 x_n = c r^{n}
 $$
+Y lo reemplazamos en la relacion de recurrencia:
 $$
 \begin{align}
 c r^{n+2} + c r^{n+1} -2cr^{n} =0 \\
@@ -69,16 +73,16 @@ $$
 >siempre que tengamos una recurrencia de orden $k$
 , tendremos un *polinomio caracteristico* de orden $k$.
 
-si el polinomio caracteristico es 0, entonces la relacion se cumple.
+vemos que en este caso si el polinomio característico es 0, entonces la relación se cumple.
 
-para este caso, el polinomio tiene raices
+para este caso, el polinomio tiene raices:
 $$
 r^{2}+r-2 = \left\{ \begin{array} \\
 r = 1 \\
 r=-2
 \end{array} \right.
 $$
-por lo tanto
+por lo tanto escribimos la solucion explicita de la relación de recurrencia como una combinación lineal de la solución propuesta, aplicadas a las soluciones del polinomio caracteristico:
 $$
 x_n = c_1 1^{n} + c_2 (-2)^{n}
 $$
@@ -87,3 +91,4 @@ los coeficientes dependen de los valores iniciales.
 
 %% TODO: hacer%%
 
+# recurrencias no homogéneas y no lineales

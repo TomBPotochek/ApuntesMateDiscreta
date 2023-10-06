@@ -46,3 +46,17 @@ annotation-target: guias/guia1-mate_discreta.pdf
 >%%TAGS%%
 >
 ^0zoswalt2cq
+
+
+>%%
+>```annotation-json
+>{"created":"2023-10-05T01:28:46.832Z","text":"ejercicoi 19","updated":"2023-10-05T01:28:46.832Z","document":{"title":"guia1-mate_discreta.pdf","link":[{"href":"urn:x-pdf:0b76b1f650d51b4acfc0ca419b68411d"},{"href":"vault:/media/guias/guia1-mate_discreta.pdf"}],"documentFingerprint":"0b76b1f650d51b4acfc0ca419b68411d"},"uri":"vault:/media/guias/guia1-mate_discreta.pdf","target":[{"source":"vault:/media/guias/guia1-mate_discreta.pdf","selector":[{"type":"TextPositionSelector","start":31360,"end":31845},{"type":"TextQuoteSelector","exact":"Probar que dados A y B en I la ecuaci ́on en la inc ́ognita X dada por AX + BX′ = ∅ tiene soluci ́on sii B ⊂ A′ (olo que es equivalente AB = ∅) y es cualquier conjunto X en I que satisfaga B ⊂ X ⊂ A′ (a B se le llama soluci ́onminimal y a A′ soluci ́on maximal). Si, cumpliendo AB = ∅, es na = |A|,nb = |B|,ni = |I|, determinar el cardinal delconjunto S = {X ⊂ I : AX + BX′ = ∅} ¿Bajo qu ́e condiciones la soluci ́on es  ́unica? ¿Qu ́e soluciones tiene la ecuaci ́on(A + A′)X + X′ = ∅?","prefix":"o que X′Y + XY ′ = ∅⇔X = Y .19. ","suffix":"♣ (Resp. parcial) La ecuaci ́on "}]}]}
+>```
+>%%
+>*%%PREFIX%%o que X′Y + XY ′ = ∅⇔X = Y .19.%%HIGHLIGHT%% ==Probar que dados A y B en I la ecuaci ́on en la inc ́ognita X dada por AX + BX′ = ∅ tiene soluci ́on sii B ⊂ A′ (olo que es equivalente AB = ∅) y es cualquier conjunto X en I que satisfaga B ⊂ X ⊂ A′ (a B se le llama soluci ́onminimal y a A′ soluci ́on maximal). Si, cumpliendo AB = ∅, es na = |A|,nb = |B|,ni = |I|, determinar el cardinal delconjunto S = {X ⊂ I : AX + BX′ = ∅} ¿Bajo qu ́e condiciones la soluci ́on es  ́unica? ¿Qu ́e soluciones tiene la ecuaci ́on(A + A′)X + X′ = ∅?== %%POSTFIX%%♣ (Resp. parcial) La ecuaci ́on*
+>%%LINK%%[[#^56ve5roujst|show annotation]]
+>%%COMMENT%%
+>ejercicoi 19
+>%%TAGS%%
+>
+^56ve5roujst

@@ -86,7 +86,9 @@ $$
 > Para cada algebra de Boole, se puede asociar una Relacion de orden.  
 
 # Partes de un algebra de Boole
-$P_{A}$ es el conjunto de todos los subconjuntos de A. "Partes de A"
+$P_{A}$ es el conjunto de todos los subconjuntos de A. "Partes de A"[^pot]
+
+[^pot]: ¿no se dice "conjunto de potencia" (power set) en lugar de "partes de .."?
 
 Ej:
 dado $A = \{a,b,c\}$, entonces $P_{A} = \left\{\varnothing, \{a\}, \{ b \}, \{ c \}, \{ a,b \}, \{ a,c \}, \{ b,c \}, \{ a,b,c \}\right\}$
@@ -150,6 +152,7 @@ $H$ es un subalgebra de $B$ si $H \subset B$ y $H$ es álgebra de Boole.
 
 
 # [[Isomorfismos de algebra de Boole]]
+Establecen una relacion de equivalencia entre dos algebras de Boole
 
 ----------
 # ejercicios tipo

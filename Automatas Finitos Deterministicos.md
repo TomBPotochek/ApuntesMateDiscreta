@@ -1,6 +1,6 @@
 # definicion
 $$
-(\Sigma, \mathcal{Q}, q_0, F, \Gamma)
+(\Sigma, \mathbf{Q}, q_0, F, \Gamma)
 $$
 $$
 \begin{array} \\
@@ -12,7 +12,7 @@ F \subset \mathbf{Q}: F\mbox{ conjunto de estados finales } \\
 \Gamma: \Sigma \times \mathbf{Q} \to \mathbf{Q} 
 \end{array}
 $$
-Una automata es *determinista* si para cada estado existe una transición para cada letra del alfabeto, y solo 1 transicion por cada una. (puede no pasar para la transición final?)
+Una automata es *determinista* si para cada estado existe una sola transición para cada letra del alfabeto, y solo 1 transición por cada una. (puede no pasar para la transición final?)
 
 El estado inicial se marca con una flecha que sale de la nada hacia el estado, y el estado final se marca con un doble circulo.
 
@@ -25,7 +25,7 @@ stateDiagram
     q0 --> q1 : a
     q0 --> q2 : b
     q1 --> q2 : a
-    q1 --> [*]
+
     q2 --> q2 : a,b
 
 	class q1 End
@@ -59,3 +59,17 @@ Por ejemplo, la ER de la automata [[Automatas Finitos Deterministicos 2023-09-19
 
 [^1]: creo? No se si esa ER esta bien para esa automata.
 
+## Automata Determinístico Minimo
+Es una automata que acepta las mismas palabras que otro dado (y algo sobre ser minimo?)
+
+**Como encontrarlo:**
+En base a como se comportan los distintos estados de la automata bajo las letras del alfabeto (transiciones), podemos determinar las [[Relaciones#^359539|clases]] de cada estado.
+
+### Procedimiento
+Dado el conjunto de estados $\mathbf{Q}$, lo separamos en 2 conjuntos: un conjunto con los estados finales y otro con los estados no finales.
+
+Luego, armamos la tabla de la funcion de transicion para la automata y vemos como se comporta cada estado para las distintas transiciones.
+
+Si para 2 estados de la misma clase (los subconjuntos que armamos sobre $\mathbf{Q}$) no se comportan de la misma manera para cada transicion, entonces debemos separarlos en clases distintas. Decimos que se comportan de la misma manera si bajo la transicion dada, los estados van a parar a estados de la misma clase (aunque los estados puntuales a los que van a parar sean distintos).
+
+Seguimos separando hasta que ya no podemos.
