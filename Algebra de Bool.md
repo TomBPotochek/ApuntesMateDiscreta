@@ -82,8 +82,9 @@ $$
 $$
 
 
-> [!NOTE]
-> Para cada algebra de Boole, se puede asociar una Relacion de orden.  
+> [!NOTE] Nota
+> Para cada algebra de Boole, se puede asociar una [[Relaciones|relación]] de orden.  
+> Dados $x$ e $y$ en un el algebra de Boole, $x \leq y \iff xy = x$
 
 # Partes de un algebra de Boole
 $P_{A}$ es el conjunto de todos los subconjuntos de A. "Partes de A"[^pot]
@@ -93,7 +94,13 @@ $P_{A}$ es el conjunto de todos los subconjuntos de A. "Partes de A"[^pot]
 Ej:
 dado $A = \{a,b,c\}$, entonces $P_{A} = \left\{\varnothing, \{a\}, \{ b \}, \{ c \}, \{ a,b \}, \{ a,c \}, \{ b,c \}, \{ a,b,c \}\right\}$
 además, $(P_{A}, \cup, \cap, \bar{\ }, \varnothing, A)$ forma un álgebra de Boole. Tiene conjunto de átomos: $\{ \{ a \}, \{ b \}, \{ c \} \}$
+
+Representados como diagramas de *Hasse*[^hasse]:
 ![[Algebra de Bool 2023-09-17 23.53.31.excalidraw]]
+
+[^hasse]: son una representacion gráfica de un algebra de Boole donde las conexiones en el diagrama representan
+    que esos 2 elementos estan relacionados entre sí con una relación de órden.
+
 (otro ejemplo, en latex)
 ```tikz
 \begin{document}

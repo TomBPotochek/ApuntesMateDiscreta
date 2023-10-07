@@ -1,4 +1,4 @@
-
+#ejercicio/completo 
 $$
 (B,+,*,',0,1)
 $$
@@ -59,8 +59,9 @@ la solución es entonces $a=0, b=1, c=1 \implies 2^{0}3^{1}5^{1}=15$
 
 En general, si la sextupla tiene estructura de algebra de bool, los complementos se pueden calcular como $\bar{x} = \frac{\text{max\_elem}}{x}$. El elemento maximo se corresponderá con el 1 y el elemento minimo se correspondera con el 0.
 
-## cuando hay estructura de algebra de bool?
-si los factores primos del numero aparecen todos sin repetir, entonces habra algebra de bool. La sextupla va a tener que se cumplen los axiomas y que cada elemento tiene complemento unico.
+
+> [!info] Teorema
+> si los factores primos del numero que define al conjunto de divisores aparecen todos sin repetir, entonces habrá algebra de boole. La sextupla va a tener que se cumplen los axiomas y que cada elemento tiene complemento unico.
 
 ## atomos
 definicion de atomo:

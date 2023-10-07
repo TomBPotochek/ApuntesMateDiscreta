@@ -7,6 +7,8 @@ También aplican las [[Relaciones|relaciones]] entre conjuntos que forman un ál
 Ídem algebra de Boole, pero con $+ \equiv \cap$ , $\cdot \equiv \cup$ , $1 \equiv \text{I}$ , $0 \equiv \varnothing$  :
 ![[Algebra de Bool#Identidades]]
 
+Ver también: [[Relaciones]]
+
 ## Formas Normales
 
 se puede escribir una funcion proposicional en su forma normal. Es una suma o producto de terminos completos. Un termino completo es un termino donde aparecen todas las variables de la función. Se pueden numerar los terminos en base a la cantidad posible de terminos. O sea, numeros de $0$ hasta $2^{n}-1$ donde $n$ es el numero de variables de la funcion.
