@@ -68,24 +68,28 @@ Se puede representar como
 | **3**   | 0   | 0   | 1   | 0   |
 | **4**   | 0   | 0   | 0   | 1   |
 
-Si la diagonal de la matriz de relacion son todos 1s, es reflexiva.   
-Si $M_{R}= (M_{R})^{t}$ entonces la relacion es simetrica.
-Si $M_{R}\cdot(M_{R})^{t} \leq I_{d}$ entonces la relacion es antisimetrica.  
-si $(M_{R})^{2} \leq M_{R}$ entonces la relacion es transitiva.[^mat]
+#### propiedades de la matriz
+* Si la diagonal de la matriz de relacion son todos 1s, es reflexiva.   
+* Si $M_{R}= (M_{R})^{t}$ entonces la relacion es simetrica.
+* Si $M_{R}\cdot(M_{R})^{t} \leq I_{d}$ entonces la relacion es antisimetrica.  
+* si $(M_{R})^{2} \leq M_{R}$ entonces la relacion es transitiva.[^mat]
 
 [^mat]: Esta multiplicacion de matrices es  la multiplicación booleana de matrices, que delega a la multiplicación y suma booleana
     para la multiplicación y suma de los 0s y 1s. O sea, $1\cdot{1} + 1 = 1$. 
     Además, una matriz es $\leq$ a otra sii cada elemento de la primera es $\leq$ a cada elemento correspondiente de la otra. 
     O sea, $A \leq B \iff \forall a \in A, b\in B : a_{ij} \leq b_{ij}$
 
-
+* La inversa de una matriz booleana no siempre existe, pero si existe, es igual a la transpuesta de la matriz
+$$
+\exists A^{-1} \iff A \cdot A^{t} = I
+$$
 
 
 ## Relacion de equivalencia
 Una relacion $R$ que es **R,S,T** (reflexiva, simetrica y transitiva) es una relación **de equivalencia**.
 
 
-## Relacion de orden
+## Relacion de orden (parcial)
 Si $R$ (relacion) es **R,A,T** (reflexiva, antisimetrica y transitiva), es una relacion **de orden** (parcial).  
 Una relacion donde podemos decir que $x$ precede a $y$ (o es igual?)
 $$

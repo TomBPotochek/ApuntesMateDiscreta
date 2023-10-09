@@ -56,6 +56,15 @@ $$
 p \oplus q = p\cdot \bar{q}+\bar{p}\cdot q
 $$
 
+### implicación
+$$
+p \implies q = \overline{ p}+q
+$$
+
+### equivalencia
+$$
+p \iff q = pq + \overline{ p}\cdot \overline{ q}
+$$
 
 
 
