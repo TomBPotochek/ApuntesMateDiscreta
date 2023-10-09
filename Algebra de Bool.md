@@ -145,14 +145,12 @@ Representados como diagramas de *Hasse*[^hasse]:
 \end{document}
 ```
 # atomos
-un elemento $a$ de un algebra de Boole es un átomo si[^1]:  
+un elemento $a$ de un algebra de Boole es un átomo si:  
 $$
-\begin{array} \\
-a \neq 0  \\
-(x \cdot a = x \implies x = a) \ \vee (x = 0)
-\end{array}
+\text{si }\forall x \in B \ : x \leq a \implies (x = 0_{\tiny B} \vee x = a)
 $$
-[^1]: a esta definicion le falta algo. No se qué esta diciendo.
+de esta definición se desprende que:
+* el producto de átomos distintos es 0: $a\neq b \implies a\cdot b = 0$
 
 # subalgebras de Boole
 $H$ es un subalgebra de $B$ si $H \subset B$ y $H$ es álgebra de Boole. Pero se debe seguir cumpliendo que el complemento de un elemento en $H$ sea el mismo elemento en $B$. Esto implica que las subálgebras incluyen al elemento mínimo y al máximo de $B$.
