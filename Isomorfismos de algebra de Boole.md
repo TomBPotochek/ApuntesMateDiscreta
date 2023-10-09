@@ -12,8 +12,8 @@ $$
 (B_2, +, \cdot_2 ,\bar{\ }_{2},0_{2},1_{2}) AB \\
 f:B_1 \to B_2 \mbox{ es biyectiva sii } \\
 \begin{array}
-\forall x,y \in B_1 f(x+_1y) = f(x) +_2 f(y) \\
-\forall x,y \in B1 f(x\cdot_1 y) = f(x) \cdot_2 f(y) \\
+\forall x,y \in B_1 : f(x+_1y) = f(x) +_2 f(y) \\
+\forall x,y \in B_1 : f(x\cdot_1 y) = f(x) \cdot_2 f(y) \\
 \forall x f(\bar{x}) = \overline{f(x)} \\
 \end{array}
 \end{array}

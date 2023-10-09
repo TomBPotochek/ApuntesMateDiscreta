@@ -17,6 +17,29 @@ Para toda relación se cumple que 2 elementos estan relacionados, o no lo están
 > [!WARNING] Ojo
 > Las funciones son relaciones pero *no todas* las relaciones son funciones (las relaciones pueden tener multiples imágenes para un mismo elemento del dominio)
 
+## Oeraciones sobre Relaciones
+Sean las relaciones binarias $R$ y $S$ definidas sobre $X$ e $Y$:
+### Conjunción
+$$
+R\ \cap S = R\cdot S= \{ (a,b) | (a,b) \in R\ \wedge (a,b) \in S \}
+$$
+### Disyunción
+$$
+R \ \cup S = R + S = \{ (a,b) | (a,b) \in R\ \vee  (a,b) \in S \}
+$$
+
+### Composición
+se lee de izquierda a derecho, no como composición de funciones.
+$$
+R \circ S = RS = \{ (a,c) | \exists b / (a,b) \in R \ \wedge (b,c) \in S \}
+$$
+
+### Relación inversa
+$$
+R^{-1} = \{ (b,a) | (a,b) \in R \}
+$$
+
+
 ## Tipos de Relaciones
 ### Reflexiva
 Relaciones donde cada elemento del dominio, todos esta relacionado con sí mismo
@@ -71,19 +94,33 @@ Se puede representar como
 #### propiedades de la matriz
 * Si la diagonal de la matriz de relacion son todos 1s, es reflexiva.   
 * Si $M_{R}= (M_{R})^{t}$ entonces la relacion es simetrica.
-* Si $M_{R}\cdot(M_{R})^{t} \leq I_{d}$ entonces la relacion es antisimetrica.  
-* si $(M_{R})^{2} \leq M_{R}$ entonces la relacion es transitiva.[^mat]
+* Si $M_{R} \odot (M_{R})^{t} \leq I_{d}$ entonces la relacion es antisimetrica.[^odot][^leq]  
+* si $(M_{R})^{2} \leq M_{R}$ entonces la relacion es transitiva.[^mat][^leq]
 
-[^mat]: Esta multiplicacion de matrices es  la multiplicación booleana de matrices, que delega a la multiplicación y suma booleana
-    para la multiplicación y suma de los 0s y 1s. O sea, $1\cdot{1} + 1 = 1$. 
-    Además, una matriz es $\leq$ a otra sii cada elemento de la primera es $\leq$ a cada elemento correspondiente de la otra. 
+[^odot]: el operador $\odot$ denota el producto de matrices elemento a elemento. En este caso usando el producto 
+    booleano elemento a elemento.
+
+[^leq]: una matriz es $\leq$ a otra sii cada elemento de la primera es $\leq$ a cada elemento correspondiente de la otra. 
     O sea, $A \leq B \iff \forall a \in A, b\in B : a_{ij} \leq b_{ij}$
+
+[^mat]: Esta multiplicacion de matrices $(M_{R})^{2} = M_{R} M_{R}$ denota la multiplicación (booleana) de matrices, que delega a la multiplicación y suma booleana
+    para la multiplicación y suma de los 0s y 1s pero opera igual que la multiplicación tradicional de matrices 
+    más alla de ese detalle.
 
 * La inversa de una matriz booleana no siempre existe, pero si existe, es igual a la transpuesta de la matriz
 $$
 \exists A^{-1} \iff A \cdot A^{t} = I
 $$
 
+#### operaciones usando forma matricial
+$$
+\begin{align}
+R \cdot S &= M_{R} \odot M_{S}  \\
+R + S &= M_{R} \oplus M_{S}  \\
+R \circ S &= RS  \\
+R^{-1} &= (M_{R})^{t}
+\end{align}
+$$
 
 ## Relacion de equivalencia
 Una relacion $R$ que es **R,S,T** (reflexiva, simetrica y transitiva) es una relación **de equivalencia**.

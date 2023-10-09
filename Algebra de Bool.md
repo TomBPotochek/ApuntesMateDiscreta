@@ -155,7 +155,7 @@ $$
 [^1]: a esta definicion le falta algo. No se qué esta diciendo.
 
 # subalgebras de Boole
-$H$ es un subalgebra de $B$ si $H \subset B$ y $H$ es álgebra de Boole. 
+$H$ es un subalgebra de $B$ si $H \subset B$ y $H$ es álgebra de Boole. Pero se debe seguir cumpliendo que el complemento de un elemento en $H$ sea el mismo elemento en $B$. Esto implica que las subálgebras incluyen al elemento mínimo y al máximo de $B$.
 
 
 # [[Isomorfismos de algebra de Boole]]
