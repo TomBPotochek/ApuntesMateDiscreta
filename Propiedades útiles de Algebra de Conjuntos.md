@@ -1,4 +1,4 @@
-Algunas propiedades utiles apra resolver problemas de algebra de conjuntos (o algebras de boole)
+Algunas propiedades utiles para resolver problemas de algebra de conjuntos (o algebras de boole)
 
 
 # subconjunto
@@ -31,3 +31,7 @@ $$
 X + Y = \varnothing \iff X = \varnothing \ \wedge Y = \varnothing
 $$
 
+# producto da 1
+$$
+X \cdot  Y = I \iff X=I \ \wedge Y = I
+$$
