@@ -65,7 +65,7 @@ Y lo reemplazamos en la relacion de recurrencia:
 $$
 \begin{align}
 c r^{n+2} + c r^{n+1} -2cr^{n} =0 \\
-\underbrace{ c r^{n} }_{ \neq0 }\cdot \underbrace{ (r^{2}+r - 2) }_{ \tiny \mbox{ polinomio caracteristico } } = 0
+\underbrace{ c r^{n} }_{ \neq0 } \ \cdot \underbrace{ (r^{2}+r - 2) }_{ \tiny \mbox{ polinomio caracteristico } } = 0
 \end{align}
 $$
 
