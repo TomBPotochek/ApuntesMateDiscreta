@@ -1,15 +1,20 @@
+---
+aliases:
+  - grafo planar
+  - planar graph
+---
 Un grafo planar admite una representación en el plano, con aristas sólo eventualmente intersecadas en vértices. 
 
 Ver ejercicio 37 para esta definición.
 ![[Notas guia 3#^520ktv45n5q]]
 
-Los grafos planaers tienen o pueden tener [[Caras de un grafo|caras]]
+Los grafos planares tienen o pueden tener [[Caras de un grafo|caras]]
 
 Para los grafos planares, se cumple la [[fórmula de Euler]] y el [[Faceshaking lemma]]
 
 
 # grafo dual de un grafo planar
-Es un grafo que tiene un vertice por cada cara del grafo planar, y una arista por cada arista del grafo planar, uniendo a 2 regiones vecinas.
+Dado un grafo **G**, el grafo dual **G\*** es el grafo que tiene un vértice por cada cara del grafo planar, y una arista por cada arista del grafo planar, uniendo a 2 regiones vecinas.
 Como observación, los duales de 2 representaciones del mismo grafo **no** necesariamente son isomorfas.
 
 ej

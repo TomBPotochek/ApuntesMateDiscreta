@@ -28,13 +28,13 @@ $$
 $$
 
 # casos particulares
-grafo arista de un camino simple ($P_n$) con $n> 2$
+grafo arista de un camino simple ($P_n$) con $n> 2$ es otro camino simple de grado menor
 
 $$
 L(P_n) = P_{n-1}
 $$
 
-grafo arista de un Cycle ($C_n$) con $n> 2$
+grafo arista de un Cycle ($C_n$) con $n> 2$ es otro cycle.
 
 $$
 L(C_n) = C_n

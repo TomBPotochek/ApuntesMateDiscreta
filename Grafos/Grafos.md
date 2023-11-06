@@ -1,4 +1,10 @@
-# definicion
+---
+aliases:
+  - grafo
+  - graph
+  - graphs
+---
+# definición
 $$
 G=(V,E, \Psi_G)
 $$
@@ -6,7 +12,7 @@ donde
 $$
 \Psi_G: E_{(G)}\to \{ u,v | uv \in V \}
 $$
-es la *función de incidencia* que asigna a cada arista un conjunto de 2 (o 1) vertices del grafo.
+es la *función de incidencia* que asigna a cada arista un conjunto de 2 (o 1) vértices del grafo.
 ![[Grafos 2023-10-17 18.35.26.excalidraw]]
 ## aristas
 las aristas representan la coneccion entre 2 vertices
@@ -39,12 +45,7 @@ d(v) = \mbox{ num de aristas que inciden en } v
 $$
 si todos tienen el mismo grado, es un *grafo regular*
 
-
-### Hamshaking lema
-
-$$
-\sum_{v \in V} d(v) = 2\cdot  m(G)
-$$
+![[Hamshaking lemma]]
 ### cantidad vertices grado impar
 la cantidad de vertices de grado impar es **par**
 

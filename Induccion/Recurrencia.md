@@ -45,7 +45,7 @@ $$
 ----------
 # recurrencias de segundo orden
 Son relaciones de recurrencia que dependen de 2 términos anteriores.
-dado
+## ejemplo
 $$
 x_{n+2} + x_{n+1} - 2x_n = 0
 $$
@@ -56,7 +56,7 @@ x_0 = 1 \\
 x_1 = 2
 \end{array}
 $$
-## proponemos solucion
+### proponemos solucion
 asumimos 
 $$
 x_n = c r^{n}
@@ -75,20 +75,46 @@ $$
 
 vemos que en este caso si el polinomio característico es 0, entonces la relación se cumple.
 
-para este caso, el polinomio tiene raices:
+para este caso, el polinomio tiene raíces:
 $$
 r^{2}+r-2 = \left\{ \begin{array} \\
 r = 1 \\
 r=-2
 \end{array} \right.
 $$
-por lo tanto escribimos la solucion explicita de la relación de recurrencia como una combinación lineal de la solución propuesta, aplicadas a las soluciones del polinomio caracteristico:
+por lo tanto escribimos la solución explicita de la relación de recurrencia como una combinación lineal de la solución propuesta, aplicadas a las soluciones del polinomio característico:
 $$
-x_n = c_1 1^{n} + c_2 (-2)^{n}
+\begin{align} 
+x_{n} &= c_{1} (r_{1})^{n} + c_{2}(r_{2})^{n} \\
+x_n &= c_1 1^{n} + c_2 (-2)^{n}
+\end{align}
 $$
-## encontramos los coeficientes
+
+### encontramos los coeficientes
 los coeficientes dependen de los valores iniciales.
 
 %% TODO: hacer%%
+## caso raíces dobles
+Si la solución al polinomio característico es 1 sola raíz (la raíz es doble), entonces la solución general a la relación de recurrencia se puede escribir como. O sea, dada la raíz doble $r$:
+
+$$
+x_{n} = c_{1}(r)^{n} + c_{2}\ n(r)^{n}
+$$
+En relaciones de recurrencia de orden $k$, si una raíz $r$ tiene multiplicidad $m$, entonces los términos de la solución correspondientes a esa raíz deben aparecer $m$ veces, con cada término multiplicado por la variable $n$ de la recurrencia, elevada a una potencia del $1$ a $m$. O sea:
+$$
+x_{n} = c_{1} r^{n} + c_{2}\ n r^{n} + c_{3}\ n^{2} r^{n} + \dots + c_{m}\ n^{m} r^{n}
+$$
+
+
+
+
 
 # recurrencias no homogéneas y no lineales
+
+
+
+
+-------
+# ver también
+* [[Ejercicio 6]] para distintos casos al resolver la parte particular de la relación de recurrencia.
+* 
