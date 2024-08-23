@@ -2,7 +2,7 @@
 $$
 n - m + f = 2
 $$
-O sea, el número de vertices menos el número de aristas más el número de caras es siempre igual a 2.
+O sea, el número de vertices ($n$) menos el número de aristas ($m$) más el número de caras ($f$) es siempre igual a 2.
  demostracion
 
 Tenemos que cualquier grafo conexo se construye a partir de un [[árbol generador]].
